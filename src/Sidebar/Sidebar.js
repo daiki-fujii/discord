@@ -16,19 +16,34 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__top">
-                <h3>Clever Programmer</h3>
+                <h3 className="sidebar__title">Clever Programmer</h3>
                 <ExpandMoreIcon />
             </div>
             <div className="sidebar__channels">
                 <div className="sidebar__channelsHeader">
                     <div className="sidebar__header">
                         <ExpandMoreIcon />
-                        <h4>Text Channels</h4>
+                        <h4>テキストチャンネル</h4>
                     </div>
-
                     <AddIcon className="sidebar__addChannel" />
                 </div>
                 <div className="sidebar__channelsList">
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
                     <SidebarChannel />
                     <SidebarChannel />
                     <SidebarChannel />

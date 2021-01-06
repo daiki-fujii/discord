@@ -13,7 +13,7 @@ function ChatHeader() {
             <div className="chatHeader__left">
                 <h3>
                     <span className="chatHeader__hash">#</span>
-                    Test Channel Name
+                    一般
                 </h3>
             </div>
             <div className="chatHeader__right">

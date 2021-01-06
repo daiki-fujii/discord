@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    flex: 0.25;
+    flex: 0.20;
     height: 100vh;
     background-color: #2f3135;
 }
@@ -14,6 +14,11 @@
     background-color: #2f3135;
     color: white;
     border-bottom: 3px solid #26282c;
+    box-sizing: border-box;
+}
+
+.sidebar__title {
+    white-space: nowrap
 }
 
 .sidebar__channels {
@@ -35,6 +40,11 @@
     padding: 10px;
     background-color: #2f3135;
     color: gray;
+}
+.sidebar__channelsList {
+    overflow: scroll;
+    height: 70vh;
+    flex: 1;
 }
 
 .sidebar__header {
